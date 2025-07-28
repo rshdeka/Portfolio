@@ -91,7 +91,8 @@ def experience_page():
     ### 🧑‍💻 Software Engineer 
     #### 🏢 Optum (UnitedHealth Group) | *Sept 2023 – Present* 
 
-    ##### PROJECT: Contact Insights | 09/2023 – 10/2024  
+    ##### 🧬 PROJECT: Contact Insights | 09/2023 – 10/2024  
+
                 
     **Automated Data Flow pipeline**
     - Automated the data flow pipeline for Optum Bank's Customer Support data. The automated system consisted of loading Customer 
@@ -99,23 +100,27 @@ def experience_page():
     Category, Sub-Category, Sentiment, Root Cause, Responsible Party, Prevention Method), and storage to Cosmos DB for further 
     analysis, which achieved an accuracy rate of approx. 96.7% in aligning with the manual entries. Scheduled a Databricks job to run at 
     regular intervals, to ensure that Cosmos DB is consistently updated with latest data.
+
                 
     **Automated real-time Chatbot Evaluation workflow**
     - Implemented a real-time automated Evaluation Workflow using Python for calculating evaluation metrics (e.g., similarity, fluency, 
     relevance scores, etc.) to assess individual chatbot interactions as well as entire conversations, triggered via Azure Functions and 
     Azure Event Grid for event-driven processing, with results stored in Cosmos DB to enhance the quality of our chatbot responses
+
     
     **Automated on-demand Newsletter Generation**
     - Developed an automated, on-demand Newsletter Generation system using Azure Functions, Python APIs and Prompt Engineering
     to provide summarized insights into Customer Support issues, evaluate resolution effectiveness, propose strategies to address root 
     causes, and incorporated visualizations (e.g., pie charts, bar graphs). Enabled dynamic update of Newsletter with selected chats to 
     provide dynamic insights, thus increasing stakeholder engagement by approx. 80%.
+
                 
     **Automated data migration**
     - Facilitated seamless data migration across various platforms (Azure Cosmos DB, Azure Databricks, Power BI) using Python APIs, 
     ensuring 100% data integrity across platforms.
+
                 
-    ##### PROJECT: AI Advancements | 11/2024 – Present
+    ##### 🧬 PROJECT: AI Advancements | 11/2024 – Present
                 
     **Automated Code Documentation Generation for GitHub**
     - Automated Code Documentation Generation for GitHub repositories via GitHub Action to trigger on new PRs, utilizing Python, 
@@ -123,6 +128,7 @@ def experience_page():
     which is then committed back to the repository. This system ensures that the documentation for repositories is kept 100% updated, 
     while also helping new joiners understand the code within the repository.
     - Dummy Project: [https://github.com/rshdeka/GenAI-Code-Documentation-Generation](https://github.com/rshdeka/GenAI-Code-Documentation-Generation)
+
                 
     **Automated FHIR Test Data creation API**
     - Automated FHIR Test Data Creation by developing a solution using Python, Azure Functions, and Prompt Engineering to generate 
@@ -132,6 +138,7 @@ def experience_page():
     efforts for test data creation by approx. 95% (from 45 minutes to 3 minutes per patient).
     - Dummy Project: [https://github.com/rshdeka/GenAI-FHIR-Test-Data-Generation](https://github.com/rshdeka/GenAI-FHIR-Test-Data-Generation)
 
+
     **Agentic Framework for UI Browser Testing**
     - Automated UI Browser Testing by utilizing an Agentic AI framework with Langchain, BrowserUse, and Playwright. Leveraged
     Prompt Engineering to dynamically generate Playwright automation functions (requiring only slight modifications to accommodate 
@@ -139,6 +146,7 @@ def experience_page():
     instruct the AI Agent on executing test cases, with Playwright serving as a fallback mechanism to extend the agent and facilitate 
     custom function calls. This solution increased automated test coverage by approx. 60%, reducing manual efforts by the QE team.
     - Dummy Project: [https://github.com/rshdeka/UI-Testing-Automation-PoC](https://github.com/rshdeka/UI-Testing-Automation-PoC)
+
                 
     ### 🤖 Data Science intern
     #### 🏢 SarvM.AI System Private Limited | *July 2022 – Jan 2023*
