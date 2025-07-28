@@ -48,18 +48,37 @@ st.markdown("""
 # Skills
 st.header("🛠️ Skills")
 st.markdown("""
-- **Languages**: Python, C++
-- **Frameworks**: FastAPI, Flask, Streamlit
-- **Data Management**: SQL, Azure Cosmos DB
-- **GenAI Technologies**: Prompt Engineering, LLMs, Langchain, Agentic AI (BrowserUse + Playwright)
-- **Machine Learning**: Supervised Learning (Linear/Logistic Regression, Decision Tree, Random Forest, SVM, KNN)
-                        Unsupervised Learning (K-Means Clustering, Market Basket Analysis),
-                        Ensemble Models (Random Forest, XGBoost, LightGBM, VotingClassifier, StackingClassifier)
-- **Cloud Services**: Azure Functions, Azure Cosmos DB, Azure Databricks, Azure Event Grid, Azure Logic Apps, Power Automate
-- **Data & Processing**: PySpark, NumPy, Pandas, Matplotlib, Seaborn, scikit-learn
-- **Model Optimization & Evaluation**: GridSearchCV, RandomizedSearchCV, Cross-Validation, Confusion Matrix, ROC-AUC
-- **Automation & Tools**: Power BI, GitHub, GitHub Actions, Postman
-- **OCR & Web Scraping**: OpenCV, BeautifulSoup
+#### 🧑‍💻 **Languages**
+- Python, C++
+
+#### 🚀 **Frameworks**
+- FastAPI, Flask, Streamlit
+
+#### 🗄️ **Data Management**
+- SQL, Azure Cosmos DB
+
+#### 🤖 **GenAI Technologies**
+- Prompt Engineering, LLMs, Langchain, Agentic AI (BrowserUse + Playwright)
+
+#### 📚 **Machine Learning**
+- **Supervised:** Linear/Logistic Regression, Decision Tree, Random Forest, SVM, KNN  
+- **Unsupervised:** K-Means Clustering, Market Basket Analysis  
+- **Ensemble Models:** XGBoost, LightGBM, VotingClassifier, StackingClassifier
+
+#### ☁️ **Cloud Services**
+- Azure Functions, Azure Cosmos DB, Azure Databricks, Azure Event Grid, Azure Logic Apps, Power Automate
+
+#### 🔢 **Data & Processing**
+- PySpark, NumPy, Pandas, Matplotlib, Seaborn, scikit-learn
+
+#### 🧪 **Model Optimization & Evaluation**
+- GridSearchCV, RandomizedSearchCV, Cross-Validation, Confusion Matrix, ROC-AUC
+
+#### ⚙️ **Automation & Tools**
+- Power BI, GitHub, GitHub Actions, Postman
+
+#### 🕵️‍♀️ **OCR & Web Scraping**
+- OpenCV, BeautifulSoup
 """)
 
 # Resume download
