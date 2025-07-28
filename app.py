@@ -72,6 +72,18 @@ st.markdown("""
 - OpenCV, BeautifulSoup
 """)
 
+# Work Experience
+st.header("💼 Work Experience")
+st.markdown("""
+### 🧑‍💻 Python Developer  
+**Optum (UnitedHealth Group)** | *Jan 2024 – Present*  
+- Developed a **FHIR Resource Generation API** using FastAPI to automate creation of realistic test data bundles (Patient, Encounter, Condition, etc.)
+- Built a **LangChain + Playwright bot** using Agentic AI (BrowserUse Agent + Azure OpenAI) to automate UI testing based on structured test cases
+- Created a **Support Chat Classifier** using XGBoost for intent detection and regression models for resolution time prediction
+- Designed an Azure Function for **validating and correcting FHIR resources** using Pydantic FHIR models
+- Worked with tools like Postman, GitHub Actions, and Power BI to support automation and visualization
+""")
+
 # Resume download
 st.header("📄 Resume")
 with open("resume.pdf", "rb") as file:
