@@ -185,7 +185,7 @@ def project_page():
     # Personal projects
     st.title("🚀 Personal Projects")  
     st.markdown("""
-    🧪 **Heart Disease Prediction site**
+    #### 🧪 **Heart Disease Prediction site**
     - Applied Machine Learning models: Logistic Regression, SVM, Random Forest Classifier, XGBoost Classifier, 
     LightGBM Classifier, and Ensemble Models to predict if a person is affected by a heart problem or not. 
     Utilized RandomizedSearchCV for hyperparameter tuning and achieved an accuracy of approx. 87% with 
@@ -193,14 +193,14 @@ def project_page():
     - **Source code**: [https://github.com/rshdeka/Heart-disease-prediction](https://github.com/rshdeka/Heart-disease-prediction)
     - **Website**: [https://heart-disease-prediction-vp0396.streamlit.app/](https://heart-disease-prediction-vp0396.streamlit.app/)
                 
-    📈 **Item Pricing Prediction**
+    #### 📈 **Item Pricing Prediction**
     - Applied Machine Learning models: Linear Regression, Random Forest Regressor, and XGBoost Regressor 
     to predict prices of food items in India using historical price data for appropriate item pricing. 
     Utilized RandomizedSearchCV for hyperparameter tuning and achieved an accuracy of approx. 98% with 
     XGBoost Regressor model.
     - **Source code**: [https://github.com/rshdeka/Sales-predict](https://github.com/rshdeka/Sales-predict)
                 
-    🤖 **Agentic Framework for UI Browser Testing**
+    #### 🤖 **Agentic Framework for UI Browser Testing**
     - Automated UI Browser Testing by utilizing an Agentic AI framework with Langchain, BrowserUse, and Playwright. 
     Leveraged Prompt Engineering to dynamically generate Playwright automation functions (requiring only slight
     modifications to accommodate specific UI elements) based on test cases, and integrated with the Langchain 
@@ -208,7 +208,7 @@ def project_page():
     serving as a fallback mechanism to extend the agent and facilitate custom function calls.
     - **Source code**: [https://github.com/rshdeka/UI-Testing-Automation-PoC](https://github.com/rshdeka/UI-Testing-Automation-PoC)
                 
-    🔄 **Delivery Route Optimization**
+    #### 🔄 **Delivery Route Optimization**
     - Determined the proper order in which packages should be allocated for delivery. Implemented K-Means 
     clustering to group delivery points based on geographical proximity, and utilized the 2-Opt algorithm to 
     iteratively improve delivery routes and find the most efficient routes for deliveries, minimizing the total 
