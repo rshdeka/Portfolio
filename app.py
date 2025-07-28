@@ -185,7 +185,7 @@ def project_page():
     # Personal projects
     st.title("🚀 Personal Projects")  
     st.markdown("""
-    #### 🧪 **Heart Disease Prediction site**
+    #### 🧪 **Heart Disease Prediction**
     - Applied Machine Learning models: Logistic Regression, SVM, Random Forest Classifier, XGBoost Classifier, 
     LightGBM Classifier, and Ensemble Models to predict if a person is affected by a heart problem or not. 
     Utilized RandomizedSearchCV for hyperparameter tuning and achieved an accuracy of approx. 87% with 
