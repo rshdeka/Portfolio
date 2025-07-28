@@ -97,10 +97,8 @@ def experience_page():
     """)
 
 
-# Sidebar for navigation  
-st.sidebar.title("Navigation")  
-page_selection = st.sidebar.radio("Go to", ["Main Page", "Experience Page"])  
-
+# Navigation bar
+page_selection = st.selectbox("Navigation", ["Main Page", "Experience Page"], key="navigation")
  
 # Render the selected page  
 if page_selection == "Main Page":  
