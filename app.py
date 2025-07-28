@@ -92,45 +92,40 @@ def experience_page():
     #### 🏢 Optum (UnitedHealth Group) | *Sept 2023 – Present* 
 
     ##### 🧬 PROJECT: Contact Insights | 09/2023 – 10/2024  
-
-                
-    **Automated Data Flow pipeline**
+     
+    1. **Automated Data Flow pipeline**
     - Automated the data flow pipeline for Optum Bank's Customer Support data. The automated system consisted of loading Customer 
     Support chats from Azure Databricks, extraction of key information using Python, SQL, and Prompt Engineering (e.g., Product, 
     Category, Sub-Category, Sentiment, Root Cause, Responsible Party, Prevention Method), and storage to Cosmos DB for further 
     analysis, which achieved an accuracy rate of approx. 96.7% in aligning with the manual entries. Scheduled a Databricks job to run at 
     regular intervals, to ensure that Cosmos DB is consistently updated with latest data.
 
-                
-    **Automated real-time Chatbot Evaluation workflow**
+    2. **Automated real-time Chatbot Evaluation workflow**
     - Implemented a real-time automated Evaluation Workflow using Python for calculating evaluation metrics (e.g., similarity, fluency, 
     relevance scores, etc.) to assess individual chatbot interactions as well as entire conversations, triggered via Azure Functions and 
-    Azure Event Grid for event-driven processing, with results stored in Cosmos DB to enhance the quality of our chatbot responses
-
+    Azure Event Grid for event-driven processing, with results stored in Cosmos DB to enhance the quality of our chatbot responses.
     
-    **Automated on-demand Newsletter Generation**
+   3. **Automated on-demand Newsletter Generation**
     - Developed an automated, on-demand Newsletter Generation system using Azure Functions, Python APIs and Prompt Engineering
     to provide summarized insights into Customer Support issues, evaluate resolution effectiveness, propose strategies to address root 
     causes, and incorporated visualizations (e.g., pie charts, bar graphs). Enabled dynamic update of Newsletter with selected chats to 
     provide dynamic insights, thus increasing stakeholder engagement by approx. 80%.
-
                 
-    **Automated data migration**
+    4. **Automated data migration**
     - Facilitated seamless data migration across various platforms (Azure Cosmos DB, Azure Databricks, Power BI) using Python APIs, 
     ensuring 100% data integrity across platforms.
 
                 
     ##### 🧬 PROJECT: AI Advancements | 11/2024 – Present
                 
-    **Automated Code Documentation Generation for GitHub**
+    1. **Automated Code Documentation Generation for GitHub**
     - Automated Code Documentation Generation for GitHub repositories via GitHub Action to trigger on new PRs, utilizing Python, 
     Azure Functions, and Prompt Engineering to generate documentation on existing files, as well as newly added files within the PR, 
     which is then committed back to the repository. This system ensures that the documentation for repositories is kept 100% updated, 
     while also helping new joiners understand the code within the repository.
     - Dummy Project: [https://github.com/rshdeka/GenAI-Code-Documentation-Generation](https://github.com/rshdeka/GenAI-Code-Documentation-Generation)
-
-                
-    **Automated FHIR Test Data creation API**
+    
+    2. **Automated FHIR Test Data creation API**
     - Automated FHIR Test Data Creation by developing a solution using Python, Azure Functions, and Prompt Engineering to generate 
     FHIR bundles including key healthcare resource-types (Patient, Condition, Encounter, Appointment, Observation, Service Request, 
     Medication Request, Allergy Intolerance). The API allows test data creation with dynamic customization by providing the ability to 
@@ -138,8 +133,7 @@ def experience_page():
     efforts for test data creation by approx. 95% (from 45 minutes to 3 minutes per patient).
     - Dummy Project: [https://github.com/rshdeka/GenAI-FHIR-Test-Data-Generation](https://github.com/rshdeka/GenAI-FHIR-Test-Data-Generation)
 
-
-    **Agentic Framework for UI Browser Testing**
+    3. **Agentic Framework for UI Browser Testing**
     - Automated UI Browser Testing by utilizing an Agentic AI framework with Langchain, BrowserUse, and Playwright. Leveraged
     Prompt Engineering to dynamically generate Playwright automation functions (requiring only slight modifications to accommodate 
     specific UI elements) based on test cases, and integrated with the Langchain model (AzureChatOpenAI). Utilized BrowserUse to 
@@ -151,25 +145,25 @@ def experience_page():
     ### 🤖 Data Science intern
     #### 🏢 SarvM.AI System Private Limited | *July 2022 – Jan 2023*
                 
-    **Recommendation Algorithms** 
+    1. **Recommendation Algorithms** 
     - Analyzed and optimized recommendation algorithms for food commodities.
     
-    **Delivery Route Optimization**
+    2. **Delivery Route Optimization**
     - Determined the proper order in which packages should be allocated for delivery. Implemented K-Means 
     clustering to group delivery points based on geographical proximity, and utilized the 2-Opt algorithm to 
     iteratively improve delivery routes and find the most efficient routes for deliveries, minimizing the total 
     travel distance and re-ordering the delivery data according to the optimized routes.
     
-    **Market Basket Analysis**
+    3. **Market Basket Analysis**
     - Identified relationships between items in transactions and constructed recommendations based on these 
     relationships. Implemented the recommendations, leading to a 30% increase in sales from related items.
     
-    **Customer Order Data Analysis**
+    4. **Customer Order Data Analysis**
     Predicted user re-orders by employing machine learning models like: Logistic Regression, Random Forest, 
     XGBoost Classifier, and LightGBM Classifier. Achieved a re-order prediction accuracy of approx. 96% with 
     XGBoost Classifier model. Deployed the model using Flask, enabling better inventory management and customer satisfaction.
     
-    **Item Pricing Prediction**
+    5. **Item Pricing Prediction**
     Predicted prices of food items in India using historical price data for appropriate item pricing by employing 
     machine learning models like: Linear Regression, Random Forest Regressor, and XGBoost Regressor. Achieved an 
     accuracy of approx. 98% with XGBoost Regressor model.
@@ -178,19 +172,19 @@ def experience_page():
     ### 🤖 Data Science intern
     #### 🏢 Motlay Innovation Pvt Ltd | *May 2022 – July 2022*
                 
-    **Web Scraping**
+    1. **Web Scraping**
     - Worked on Web Scraping in Python to extract data from various websites utilizing libraries such as BeautifulSoup, 
     ensuring clean and structured datasets for analysis.
     
-    **Automated OCR Data Extraction**
+    2. **Automated OCR Data Extraction**
     Developed Python scripts to automate data extraction from Government ID cards (like Voter-ID card, Aadhar card, PAN card) 
     using OpenCV OCR, and stored the extracted information for further use.
     
-    ** Company Data Analysis using SQL**
+    3. ** Company Data Analysis using SQL**
     - Analyzed data using SQL queries to gain insights into company sales statistics. Created an informative 
     dashboard on Power BI for providing quick sales insights to support data-driven decision making.
     
-    **Report Generation using Power BI**
+    4. **Report Generation using Power BI**
     - Worked on generating insightful reports and visualizations using Power BI       
     """)
 
