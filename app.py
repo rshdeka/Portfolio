@@ -171,7 +171,7 @@ def experience_page():
     using OpenCV OCR, and stored the extracted information for further use.
     - Dummy Project: [https://github.com/rshdeka/VoterID-OCR](https://github.com/rshdeka/VoterID-OCR)
     
-    3. ** Company Data Analysis using SQL**
+    3. **Company Data Analysis using SQL**
     - Analyzed data using SQL queries to gain insights into company sales statistics. Created an informative 
     dashboard on Power BI for providing quick sales insights to support data-driven decision making.
     - Dummy Project: [https://github.com/rshdeka/Sales-Insights](https://github.com/rshdeka/Sales-Insights)
