@@ -10,7 +10,7 @@ st.subheader("Python Developer | Gen AI & ML Enthusiast")
 st.write("Hi! I'm passionate about building intelligent systems, automating workflows, and solving real-world problems with Python.")
 
 # Profile image
-image_path = 'profile.jpg'
+image_path = 'IMG_3580.jpeg'
 image = Image.open(image_path)
 st.image(image, width=150)
 
