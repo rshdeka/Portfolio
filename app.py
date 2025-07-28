@@ -31,16 +31,6 @@ def main_page():
     I'm passionate about building intelligent systems, automating workflows, and solving real-world problems with Python and Gen AI.
     """)
 
-    # Resume download
-    st.header("📄 Resume")
-    with open("resume.pdf", "rb") as file:
-        btn = st.download_button(
-            label="📥 Download My Resume",
-            data=file,
-            file_name="Rajashri_Deka_Resume.pdf",
-            mime="application/pdf"
-        )
-
     # Skills
     st.header("🛠️ Skills")
     st.markdown("""
@@ -67,6 +57,16 @@ def main_page():
     ##### 🕵️‍♀️ **OCR & Web Scraping**
     - OpenCV, BeautifulSoup
     """)
+
+    # Resume download
+    st.header("📄 Resume")
+    with open("resume.pdf", "rb") as file:
+        btn = st.download_button(
+            label="📥 Download My Resume",
+            data=file,
+            file_name="Rajashri_Deka_Resume.pdf",
+            mime="application/pdf"
+        )
 
 
 def experience_page():  
