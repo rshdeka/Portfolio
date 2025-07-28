@@ -1,0 +1,245 @@
+import streamlit as st
+from PIL import Image
+
+def main_page():
+    # Page config
+    st.set_page_config(page_title="Rajashri Deka | Portfolio", page_icon="🧠", layout="centered")
+
+    # Header
+    st.title("👩‍💻 Rajashri Deka")
+    st.subheader("Python Developer | Gen AI & ML Enthusiast")
+
+    col1, col2 = st.columns([1, 3])
+    with col1:
+        # Profile image
+        image_path = 'IMG_3580.jpeg'
+        image = Image.open(image_path)
+        st.image(image, width=150)
+    with col2:
+        # Contact
+        st.header("📫 Contact")
+        st.markdown("""
+        - 📧 Email: [rajashrideka07@gmail.com](mailto:rajashrideka07@gmail.com)  
+        - 💼 LinkedIn: [https://www.linkedin.com/in/rajashrideka](https://www.linkedin.com/in/rajashrideka)
+        - 💼 GitHub: [https://github.com/rshdeka](https://github.com/rshdeka)
+        """)
+
+    # About Me
+    st.header("🧬 About Me")
+    st.markdown("""
+    I'm a Python Developer working at **Optum**, focusing on Python, AI/ML, Gen AI, and Azure Cloud services.  
+    I'm passionate about building intelligent systems, automating workflows, and solving real-world problems with Python and Gen AI.
+    """)
+
+    # Skills
+    st.header("🛠️ Skills")
+    st.markdown("""
+    ##### 🧑‍💻 **Languages**
+    - Python, C++
+    ##### 🚀 **Frameworks**
+    - FastAPI, Flask, Streamlit
+    ##### 🗄️ **Data Management**
+    - SQL, Azure Cosmos DB
+    ##### 🤖 **GenAI Technologies**
+    - Prompt Engineering, LLMs, Langchain, Agentic AI (BrowserUse + Playwright)
+    ##### 📚 **Machine Learning**
+    - **Supervised:** Linear/Logistic Regression, Decision Tree, Random Forest, SVM, KNN  
+    - **Unsupervised:** K-Means Clustering, Market Basket Analysis  
+    - **Ensemble Models:** XGBoost, LightGBM, VotingClassifier, StackingClassifier
+    ##### ☁️ **Cloud Services**
+    - Azure Functions, Azure Cosmos DB, Azure Databricks, Azure Event Grid, Azure Logic Apps, Power Automate
+    ##### 🔢 **Data & Processing**
+    - PySpark, NumPy, Pandas, Matplotlib, Seaborn, scikit-learn
+    ##### 🧪 **Model Optimization & Evaluation**
+    - GridSearchCV, RandomizedSearchCV, Cross-Validation, Confusion Matrix, ROC-AUC
+    ##### ⚙️ **Automation & Tools**
+    - Power BI, GitHub, GitHub Actions, Postman
+    ##### 🕵️‍♀️ **OCR & Web Scraping**
+    - OpenCV, BeautifulSoup
+    """)
+
+    # Resume download
+    st.header("📄 Resume")
+    with open("resume.pdf", "rb") as file:
+        btn = st.download_button(
+            label="📥 Download My Resume",
+            data=file,
+            file_name="Rajashri_Deka_Resume.pdf",
+            mime="application/pdf"
+        )
+
+
+def experience_page():  
+    # Work Experience  
+    st.title("💼 Work Experience")  
+    st.markdown("""
+    ### 🧑‍💻 Software Engineer 
+    #### 🏢 Optum (UnitedHealth Group) | *Sept 2023 – Present* 
+
+    ##### 🧬 PROJECT: Contact Insights | 09/2023 – 10/2024  
+     
+    ####### 1. **Automated Data Flow pipeline**
+    - **Tech Stack**: Python, SQL, Prompt Engineering, Azure Cosmos DB, Azure Databricks.
+    - **Description**: Automated the data flow pipeline for Optum Bank's Customer Support data. The automated system consisted of loading
+    Customer Support chats from Azure Databricks, extraction of key information using Python, SQL, and Prompt Engineering (e.g., Product,
+    Category, Sub-Category, Sentiment, Root Cause, Responsible Party, Prevention Method), and storage to Cosmos DB for further analysis.
+    Scheduled a Databricks job to run at regular intervals, to ensure that Cosmos DB is consistently updated with latest data.
+    - **Benefit**: Enhanced operational efficiency by automating data processing and reducing manual workload for analysis. 
+    - **Accuracy**: Achieved an accuracy rate of approx. 96.7% in aligning with the manual entries.
+
+    ####### 2. **Automated real-time Chatbot Evaluation workflow**
+    - **Tech Stack**: Python, Prompt Engineering, Azure Functions, Azure Cosmos DB, Azure Event Grid.  
+    - **Description**: Implemented a real-time automated Evaluation Workflow using Python for calculating evaluation metrics (e.g., similarity, 
+    fluency, relevance scores, etc.) to assess individual chatbot interactions as well as entire conversations, triggered via Azure Functions 
+    and Azure Event Grid for event-driven processing, with results stored in Cosmos DB to enhance the quality of our chatbot responses.
+    - **Benefit**: Enhanced the quality of chatbot responses, improving customer satisfaction.
+    
+   ####### 3. **Automated on-demand Newsletter Generation**
+    - **Tech Stack**: Python, Prompt Engineering, Azure Functions.
+    - **Description**: Developed an automated, on-demand Newsletter Generation system using Azure Functions, Python APIs and Prompt Engineering
+    to provide summarized insights into Customer Support issues, evaluate resolution effectiveness, propose strategies to address root 
+    causes, and incorporated visualizations (e.g., pie charts, bar graphs). Enabled dynamic update of Newsletter with selected chats to 
+    provide dynamic insights.
+    - **Benefit**: Increased stakeholder engagement by approx. 80%, facilitating better decision-making with timely insights.
+                
+    ####### 4. **Automated data migration**
+    - **Tech Stack**: Python, Azure Cosmos DB, Azure Databricks, Power BI
+    - **Description**: Facilitated seamless data migration across various platforms (Azure Cosmos DB, Azure Databricks, Power BI) using Python APIs.
+    - **Benefit**: Maintained 100% data integrity during migrations, ensuring reliable data for operations.
+
+                
+    ##### 🧬 PROJECT: AI Advancements | 11/2024 – Present
+                
+    ####### 1. **Automated Code Documentation Generation for GitHub**
+    - **Tech Stack**: Python, Prompt Engineering, Azure Functions, GitHub Actions.  
+    - **Description**: Automated Code Documentation Generation for GitHub repositories via GitHub Action to trigger on new PRs, utilizing Python, 
+    Azure Functions, and Prompt Engineering to generate documentation on existing files, as well as newly added files within the PR, which is 
+    then committed back to the repository.
+    - **Benefit**: Ensures 100% up-to-date documentation, and aiding new joiners in understanding the codebase efficiently.
+    - [Dummy Project](https://github.com/rshdeka/GenAI-Code-Documentation-Generation)
+    
+    ####### 2. **Automated FHIR Test Data creation API**
+    - **Tech Stack**: Python, Prompt Engineering, Azure Functions. 
+    - **Description**: Automated FHIR Test Data Creation by developing a solution using Python, Azure Functions, and Prompt Engineering to 
+    generate FHIR bundles including key healthcare resource-types (Patient, Condition, Encounter, Appointment, Observation, Service Request, 
+    Medication Request, Allergy Intolerance). The API allows test data creation with dynamic customization by providing the ability to 
+    override any desired parameter with user-provided values.
+    - **Benefit**: Reduced manual test data creation time by approx. 95% (from 45 minutes to 3 minutes per patient), speeding up test cycles and enhancing productivity.
+    - [Dummy Project](https://github.com/rshdeka/GenAI-FHIR-Test-Data-Generation)
+
+    ####### 3. **Agentic Framework for UI Browser Testing**
+    - **Tech Stack**: Prompt Engineering, Langchain, BrowserUse, Playwright.
+    - **Description**: Automated UI Browser Testing by utilizing an Agentic AI framework with Langchain, BrowserUse, and Playwright. 
+    Leveraged Prompt Engineering to dynamically generate Playwright automation functions (requiring only slight modifications to accommodate 
+    specific UI elements) based on test cases, and integrated with the Langchain model (AzureChatOpenAI). Utilized BrowserUse to instruct the 
+    AI Agent on executing test cases, with Playwright serving as a fallback mechanism to extend the agent and facilitate custom function calls.
+    - **Benefit**: Increased automated test coverage by approx. 60%, reducing manual testing efforts significantly.
+    - [Dummy Project](https://github.com/rshdeka/UI-Testing-Automation-PoC)
+
+                
+    ### 🤖 Data Science intern
+    #### 🏢 SarvM.AI System Private Limited | *July 2022 – Jan 2023*
+    - [Internship Certificate](https://drive.google.com/file/d/1AKUyz2zN6XlKy-Aq9A4iLXnTn3qHEuZI/view)
+                
+    ####### 1. **Recommendation Algorithms** 
+    - **Description**: Analyzed and optimized recommendation algorithms for food commodities.
+    - **Benefit**: Improved recommendation accuracy, enhancing user experience.  
+    
+    ####### 2. **Delivery Route Optimization**
+    - **Techniques**: Implemented K-Means clustering and the 2-Opt algorithm.  
+    - **Description**: Determined the proper order in which packages should be allocated for delivery. Implemented K-Means clustering to group
+    delivery points based on geographical proximity, and utilized the 2-Opt algorithm to iteratively improve delivery routes and find the most
+    efficient routes for deliveries, and finally re-ordering the delivery data according to the optimized routes.
+    - **Benefit**: Minimized total travel distance, optimizing delivery schedules. 
+    - [Dummy Project](https://github.com/rshdeka/Delivery-Order-Allocation)
+    
+    ####### 3. **Market Basket Analysis**
+    - **Description**: Identified relationships between items in transactions and constructed recommendations based on these relationships.
+    - **Benefit**: Boosted related item sales by approx. 30%.
+    
+    ####### 4. **Customer Order Data Analysis**
+    - **Models Used**: Logistic Regression, Random Forest, XGBoost Classifier, and LightGBM Classifier.
+    - **Description**: Predicted user re-orders by employing Machine Learning models, and deployed the model using Flask.
+    - **Benefit**: Enabled better inventory management leading to customer satisfaction.
+    - **Accuracy**: Achieved a re-order prediction accuracy of approx. 96% with XGBoost Classifier model. 
+    - [Dummy Project](https://github.com/rshdeka/Instacart-Analysis)
+                
+    ####### 5. **Item Pricing Prediction**
+    - **Models Used**: Linear Regression, Random Forest Regressor, and XGBoost Regressor.  
+    - **Description**: Predicts prices of food items in India using historical data for appropriate item pricing.  
+    - **Accuracy**: Utilized RandomizedSearchCV for hyperparameter tuning, and achieved approx. 98% accuracy with XGBoost Regressor model.  
+    - [Dummy Project](https://github.com/rshdeka/Sales-predict)
+
+                
+    ### 🤖 Data Science intern
+    #### 🏢 Motlay Innovation Pvt Ltd | *May 2022 – July 2022*
+    - [Internship Certificate](https://drive.google.com/file/d/1eYOKlux5mLjn340XIwWRBFj7no91AnT_/view)
+                
+    ####### 1. **Web Scraping**
+    - **Tech Stack**: Python, BeautifulSoup.
+    - **Description**: Extracted data from various websites utilizing libraries such as BeautifulSoup.
+    - **Benefit**: Provided clean and structured datasets for analysis.
+    
+    ####### 2. **Automated OCR Data Extraction**
+    - **Tech Stack**: Python, OpenCV OCR.
+    - **Description**: Automated data extraction from Government ID cards (like Voter-ID card, Aadhar card, PAN card) using OpenCV OCR.
+    - **Benefit**: Efficiently processed ID data, facilitating faster data retrieval.
+    - [Dummy Project](https://github.com/rshdeka/VoterID-OCR)
+    
+    ####### 3. **Company Data Analysis using SQL**
+    - **Tech Stack**: Python, SQL, Power BI.
+    - **Description**: Analyzed data using SQL queries to gain insights into company sales statistics, and created an informative dashboard on Power BI.
+    - **Benefit**: Supported data-driven decision-making with informative dashboard providing quick sales insights.
+    - [Dummy Project](https://github.com/rshdeka/Sales-Insights)
+                
+    ####### 4. **Report Generation using Power BI**
+    - **Description**: Generated insightful reports and visualizations using Power BI.
+    - **Benefit**: Enabled quick and informed decision-making through visual reports.  
+    """)
+
+
+def project_page():  
+    # Personal projects
+    st.title("🚀 Personal Projects")  
+    st.markdown("""
+    #### 🧪 **Heart Disease Prediction**
+    - **Models Used**: Logistic Regression, SVM, Random Forest Classifier, XGBoost Classifier, LightGBM Classifier, and Ensemble Models.  
+    - **Description**: Predicts if a person is affected by heart disease using Machine Learning models.  
+    - **Accuracy**: Utilized RandomizedSearchCV for hyperparameter tuning, and achieved approx. 87% accuracy with XGBoost/LightGBM Classifier models.
+    - **Source code**: [GitHub Repo](https://github.com/rshdeka/Heart-disease-prediction)
+    - **Website**: [Heart Disease Prediction App](https://heart-disease-prediction-vp0396.streamlit.app/)
+                
+    #### 📈 **Item Pricing Prediction**
+    - **Models Used**: Linear Regression, Random Forest Regressor, and XGBoost Regressor.  
+    - **Description**: Predicts prices of food items in India using historical data for appropriate item pricing.  
+    - **Accuracy**: Utilized RandomizedSearchCV for hyperparameter tuning, and achieved approx. 98% accuracy with XGBoost Regressor model.  
+    - **Source code**: [GitHub Repo](https://github.com/rshdeka/Sales-predict)
+                
+    #### 🤖 **Agentic Framework for UI Browser Testing**
+    - **Framework**: Utilizes an Agentic AI framework with Langchain (AzureChatOpenAI), BrowserUse, and Playwright.  
+    - **Description**: Automates UI Browser Testing through dynamically generated Playwright functions (requiring only slight modifications 
+    to accommodate specific UI elements) based on test cases.  
+    - **Integration**: Integrated with Langchain model (AzureChatOpenAI), using BrowserUse for AI Agent test execution, and Playwright 
+    serving as a fallback mechanism to extend the agent and facilitate custom function calls.
+    - **Source code**: [GitHub Repo](https://github.com/rshdeka/UI-Testing-Automation-PoC)
+                
+    #### 🔄 **Delivery Route Optimization**
+    - **Techniques**: Implemented K-Means clustering and the 2-Opt algorithm.  
+    - **Description**: Optimizes delivery routes, by implementing K-Means clustering to group delivery points based on geographical proximity,
+    and utilized the 2-Opt algorithm to iteratively improve delivery routes and find the most efficient routes for deliveries, minimizing the 
+    total travel distance and re-ordering the delivery data according to the optimized routes.
+    - **Source code**: [GitHub Repo](https://github.com/rshdeka/Delivery-Order-Allocation)
+    """)
+
+
+# Sidebar for navigation  
+st.sidebar.title("Navigation")  
+page_selection = st.sidebar.radio("Go to", ["Main Page", "Experience Page", "Personal Projects Page"])  
+
+# Render the selected page  
+if page_selection == "Main Page":  
+    main_page()  
+elif page_selection == "Experience Page":  
+    experience_page()  
+elif page_selection == "Personal Projects Page":
+    project_page()
