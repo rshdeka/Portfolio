@@ -26,7 +26,7 @@ with col2:
 # About Me
 st.header("🧬 About Me")
 st.markdown("""
-I'm a Python Developer currently working at **Optum**, focusing on Python, AI/ML, Gen AI, and Azure Cloud services.  
+I'm a Python Developer working at **Optum**, focusing on Python, AI/ML, Gen AI, and Azure Cloud services.  
 I'm passionate about building intelligent systems, automating workflows, and solving real-world problems with Python and Gen AI.
 """)
 
