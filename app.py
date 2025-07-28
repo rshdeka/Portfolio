@@ -11,7 +11,7 @@ st.subheader("Python Developer | Gen AI & ML Enthusiast")
 col1, col2 = st.columns([1, 3])
 with col1:
     # Profile image
-    image_path = 'profile.jpg'
+    image_path = 'IMG_3580.jpeg'
     image = Image.open(image_path)
     st.image(image, width=150)
 with col2:
