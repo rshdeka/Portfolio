@@ -74,8 +74,7 @@ def main_page():
     - 📱 Phone: +91-6000797881 
     - 📧 Email: [rajashrideka07@gmail.com](mailto:rajashrideka07@gmail.com)  
     - 💼 LinkedIn: [https://www.linkedin.com/in/rajashrideka](https://www.linkedin.com/in/rajashrideka)
-    - 💼 GitHub: [https://github.com/rshdeka](https://github.com/rshdeka)
-    - 📨 [Click here to send me an email](mailto:rajashrideka07@gmail.com)  
+    - 💼 GitHub: [https://github.com/rshdeka](https://github.com/)
     """)
 
 
