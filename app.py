@@ -74,16 +74,14 @@ def main_page():
     - **Microsoft Azure AI Engineer Associate Certification** | [AI-102](https://learn.microsoft.com/api/credentials/share/en-us/RajashriDeka/B79DC6EFCDC958D4?sharingId=D27E7EB37FE3D980)  
     Microsoft | June 2025
     
-    - **Microsoft Azure AI Fundamentals Certification** | [AI-900](https://learn.microsoft.com/api/credentials/share/en-us/RajashriDeka/902DB6264E1A83D9?sharingId=D27E7EB37FE3D980)
+    - **Microsoft Azure AI Fundamentals Certification** | [AI-900](https://learn.microsoft.com/api/credentials/share/en-us/RajashriDeka/902DB6264E1A83D9?sharingId=D27E7EB37FE3D980)        
     Microsoft | Feb 2025
     
-    - **Microsoft Azure Fundamentals Certification**    
-    Microsoft | Sept 2024  
-    [AZ-900](https://learn.microsoft.com/api/credentials/share/en-us/RajashriDeka/86A307FEE136E4EE?sharingId=D27E7EB37FE3D980)
+    - **Microsoft Azure Fundamentals Certification** | [AZ-900](https://learn.microsoft.com/api/credentials/share/en-us/RajashriDeka/86A307FEE136E4EE?sharingId=D27E7EB37FE3D980)          
+    Microsoft | Sept 2024
                 
-    - **Google Data Analytics Professional Certificate**
+    - **Google Data Analytics Professional Certificate** | [Google Data Analytics Certificate](https://www.credly.com/badges/49031355-8f5e-4ffd-9c19-fca6734edfc2/linked_in_profile)     
     Coursera | Aug 2022
-    [Google Data Analytics Certificate](https://www.credly.com/badges/49031355-8f5e-4ffd-9c19-fca6734edfc2/linked_in_profile)
                 
     - **SQL Certificate**
     [SQL Certificate - HackerRank](https://www.hackerrank.com/certificates/b9373c15e527) | July 2022
