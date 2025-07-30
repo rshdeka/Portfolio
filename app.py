@@ -98,9 +98,12 @@ def main_page():
     - 💼 LinkedIn: [https://www.linkedin.com/in/rajashrideka](https://www.linkedin.com/in/rajashrideka)
     - 💼 GitHub: [https://github.com/rshdeka](https://github.com/rshdeka)
     """)
-    if st.button("📧 Email Me"):  
-        st.markdown(f"[Click here to email me](mailto:rajashrideka07@gmail.com)", unsafe_allow_html=True)  
-
+    # Email button styled as a link
+    st.markdown(  
+        f'<a href="mailto:rajashrideka07@gmail.com" style="display:inline-block; padding: 0.5em 1em; color: white; background-color: #4CAF50; text-decoration: none; border-radius: 4px;">📧 Email Me</a>',  
+        unsafe_allow_html=True  
+    )  
+    
 
 def experience_page():  
     # Work Experience  
