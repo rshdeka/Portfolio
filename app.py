@@ -71,13 +71,11 @@ def main_page():
     # Certifications  
     st.header("🏆 Certifications")  
     st.markdown("""  
-    - **Microsoft Azure AI Engineer Associate Certification**    
+    - **Microsoft Azure AI Engineer Associate Certification** | [AI-102](https://learn.microsoft.com/api/credentials/share/en-us/RajashriDeka/B79DC6EFCDC958D4?sharingId=D27E7EB37FE3D980)  
     Microsoft | June 2025
-    [AI-102](https://learn.microsoft.com/api/credentials/share/en-us/RajashriDeka/B79DC6EFCDC958D4?sharingId=D27E7EB37FE3D980)
     
-    - **Microsoft Azure AI Fundamentals Certification**    
+    - **Microsoft Azure AI Fundamentals Certification** | [AI-900](https://learn.microsoft.com/api/credentials/share/en-us/RajashriDeka/902DB6264E1A83D9?sharingId=D27E7EB37FE3D980)
     Microsoft | Feb 2025
-    [AI-900](https://learn.microsoft.com/api/credentials/share/en-us/RajashriDeka/902DB6264E1A83D9?sharingId=D27E7EB37FE3D980)
     
     - **Microsoft Azure Fundamentals Certification**    
     Microsoft | Sept 2024  
