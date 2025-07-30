@@ -39,7 +39,7 @@ def main_page():
     ##### 🚀 **Frameworks**
     - FastAPI, Flask, Streamlit
     ##### 🗄️ **Data Management**
-    - SQL, Azure Cosmos DB
+    - SQL, Azure Cosmos DB, Azure Databricks
     ##### 🤖 **GenAI Technologies**
     - Prompt Engineering, LLMs, Langchain, Agentic AI (BrowserUse + Playwright)
     ##### 📚 **Machine Learning**
