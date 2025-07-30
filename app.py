@@ -21,7 +21,7 @@ def main_page():
         st.markdown("""  
         - **Bachelor of Technology**   
           **National Institute of Technology Silchar** | 07/2019 - 05/2023           
-          ***CGPA: 8.68/10***
+          CGPA: 8.68/10
         """)  
 
     # About Me
