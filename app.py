@@ -19,8 +19,8 @@ def main_page():
         # Education
         st.header("🎓 Education")
         st.markdown("""  
-        - **Bachelor of Technology**    
-          National Institute of Technology Silchar | 2019-2023 
+        - ###Bachelor of Technology    
+          **National Institute of Technology Silchar** | 07/2019-05/2023 
           CGPA: 8.68/10
         """)  
 
