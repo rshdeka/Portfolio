@@ -232,14 +232,14 @@ def project_page():
     """)
 
 
-# Sidebar for navigation  
+# Top navigation bar 
 st.title("Navigation")  
-page_selection = st.radio("Go to", ["Main Page", "Experience Page", "Personal Projects Page"])  
+tab1, tab2, tab3 = st.tabs(["Main Page", "Experience Page", "Personal Projects Page"])  
 
 # Render the selected page  
-if page_selection == "Main Page":  
+with tab1:  
     main_page()  
-elif page_selection == "Experience Page":  
+with tab2:  
     experience_page()  
-elif page_selection == "Personal Projects Page":
+with tab3:
     project_page()
