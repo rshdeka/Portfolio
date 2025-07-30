@@ -233,7 +233,7 @@ def project_page():
 
 
 # Top navigation bar 
-tab1, tab2, tab3 = st.tabs(["Main Page", "Experience Page", "Personal Projects Page"])  
+tab1, tab2, tab3 = st.tabs(["**Main Page**", "**Experience Page**", "**Personal Projects Page**"])  
 # Render the selected page  
 with tab1:  
     main_page()  
