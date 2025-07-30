@@ -100,7 +100,7 @@ def main_page():
     """)
     # Email button styled as a link
     st.markdown(  
-        f'<a href="mailto:rajashrideka07@gmail.com" style="display:inline-block; padding: 0.5em 1em; color: white; background-color: 007BFF; text-decoration: none; border-radius: 4px;">📧 Email Me</a>',  
+        f'<a href="mailto:rajashrideka07@gmail.com" style="display:inline-block; padding: 0.5em 1em; color: white; background-color: #007BFF; text-decoration: none; border-radius: 4px;">📧 Email Me</a>',  
         unsafe_allow_html=True  
     )  
     
