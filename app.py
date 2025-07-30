@@ -84,10 +84,10 @@ def main_page():
     Coursera | Aug 2022
                 
     - **SQL Certificate**
-    [SQL Certificate - HackerRank](https://www.hackerrank.com/certificates/b9373c15e527) | July 2022
+    [HackerRank](https://www.hackerrank.com/certificates/b9373c15e527) | July 2022
     
     - **Python Certificate**
-    [Python Certificate - HackerRank](https://www.hackerrank.com/certificates/b632db330fa8) | June 2021
+    [HackerRank](https://www.hackerrank.com/certificates/b632db330fa8) | June 2021
     """) 
     
     # Get In Touch section  
