@@ -233,8 +233,8 @@ def project_page():
 
 
 # Sidebar for navigation  
-st.sidebar.title("Navigation")  
-page_selection = st.sidebar.radio("Go to", ["Main Page", "Experience Page", "Personal Projects Page"])  
+st.title("Navigation")  
+page_selection = st.radio("Go to", ["Main Page", "Experience Page", "Personal Projects Page"])  
 
 # Render the selected page  
 if page_selection == "Main Page":  
