@@ -41,7 +41,7 @@ def main_page():
     ##### 🗄️ **Data Management**
     - SQL, Azure Cosmos DB, Azure Databricks
     ##### 🤖 **GenAI Technologies**
-    - Prompt Engineering, LLMs, Langchain, Agentic AI (BrowserUse + Playwright)
+    - Prompt Engineering, LLMs, RAG, Langchain, Agentic AI (BrowserUse + Playwright)
     ##### 📚 **Machine Learning**
     - **Supervised:** Linear/Logistic Regression, Decision Tree, Random Forest, SVM, KNN  
     - **Unsupervised:** K-Means Clustering, Market Basket Analysis  
@@ -283,4 +283,5 @@ with tab1:
 with tab2:  
     experience_page()  
 with tab3:
+
     project_page()
